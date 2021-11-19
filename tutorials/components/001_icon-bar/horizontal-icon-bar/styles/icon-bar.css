@@ -1,0 +1,23 @@
+.icon-list {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-list__link {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all .3s ease;
+  color: #fff;
+  font-size: 36px;
+}
+
+.icon-list__link:hover {
+  background-color: #000;
+}
+
+.icon-list__item--active {
+  background-color: #04aa6d;
+}
